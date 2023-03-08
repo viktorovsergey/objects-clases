@@ -24,9 +24,9 @@ public class Book {
         return publicYear;
     }
 
-  public String toStingBook() {
-        return "Название книги " + bookName + " год публикации " + publicYear;
-    }
+  public String toString() {
+      return getAuthor()+ " Название книги " + bookName + " год публикации " + publicYear;
+  }
 
     @Override
     public boolean equals(Object o) {

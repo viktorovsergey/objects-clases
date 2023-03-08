@@ -17,7 +17,8 @@ public class Author {
         return name;
     }
 
-    public String toStringName() {
+    public String toString() {
+
         return "Фамилия " + family + " Имя " + name;
     }
 
